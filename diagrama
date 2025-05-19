@@ -1,0 +1,71 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Marco Teórico Antirrobo" id="yFzL14KPOA27QzCHSzFM">
+    <mxGraphModel dx="1700" dy="1110" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        
+        <!-- Corrientes de Pensamiento -->
+        <mxCell id="2" value="Corrientes de Pensamiento (Control, IoT, Embebidos, Seguridad)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="250" y="40" width="300" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- MCE -->
+        <mxCell id="3" value="Módulo de Control Electrónico (MCE)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="250" y="140" width="300" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Sensores -->
+        <mxCell id="4" value="Entrada de Sensores (Acelerómetro, Proximidad)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="30" y="230" width="260" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Autenticación -->
+        <mxCell id="5" value="Dispositivos de Autenticación (RFID, Biometría, App Móvil)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="470" y="230" width="300" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Procesamiento -->
+        <mxCell id="6" value="Procesamiento y Detección de Eventos" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="250" y="230" width="200" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Decisiones -->
+        <mxCell id="7" value="Decisión: Corte, Alarma, Envío de Alerta" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff;" vertex="1" parent="1">
+          <mxGeometry x="250" y="320" width="300" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Plataforma Nube -->
+        <mxCell id="8" value="Plataforma en la Nube (PMN): Monitoreo, Revocación, Geolocalización" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#3399ff;" vertex="1" parent="1">
+          <mxGeometry x="250" y="410" width="360" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- Flechas -->
+        <mxCell id="9" style="endArrow=block;html=1;" edge="1" parent="1" source="2" target="3">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="10" style="endArrow=block;html=1;" edge="1" parent="1" source="3" target="6">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="11" style="endArrow=block;html=1;" edge="1" parent="1" source="4" target="6">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="12" style="endArrow=block;html=1;" edge="1" parent="1" source="5" target="6">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="13" style="endArrow=block;html=1;" edge="1" parent="1" source="6" target="7">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="14" style="endArrow=block;html=1;" edge="1" parent="1" source="7" target="8">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
